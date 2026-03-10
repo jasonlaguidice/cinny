@@ -95,6 +95,9 @@ export interface Settings {
 
   // furry stuff
   renderAnimals: boolean;
+
+  // Experimental
+  enableAudioEnhancement?: boolean;
 }
 
 const defaultSettings: Settings = {
